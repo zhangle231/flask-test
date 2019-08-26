@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+{% block title %}小账本{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="container-fluid">
+
+      <div class="row p-2">
+          <h4>小账本</h4>
+      </div>
+
+      <div class="row">
+          <div class="col">
+              <a type="button" role="button" href="add" class="btn btn-primary btn-sm m-1">添加</a>
+          </div>
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">日期</th>
+            <th scope="col">类型</th>
+            <th scope="col">金额</th>
+            <th scope="col">备注</th>
+            <th scope="col">操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for bill in bills %}
+          <tr>
+            <td scope="row">{{ bill['id'] }}</td>
+            <td scope="row">{{ bill['date'] }}</td>
+            <td scope="row">{{ bill['bill_type'] }}</td>
+            <td scope="row">{{ bill['money'] }}</td>
+            <td scope="row">{{ bill['remark'] }}</td>
+            <td scope="row"><a class="btn btn-primary btn-sm" href="{{ url_for('myDel',id=bill['id']) }}" role="button">删除</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <p class="important">
+        家庭小账本
+      </p>
+
+  </div>
+{% endblock %}
