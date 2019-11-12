@@ -32,7 +32,7 @@ class Bill(db.Model):
 @app.route('/')
 def hello_world():
     try:
-        result = add_together.delay(23,52)
+        #result = add_together.delay(23,52)
         bills = Bill.query.all()
         app.logger.info('list')
         return render_template('test.html',bills=bills)
