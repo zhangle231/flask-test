@@ -6,8 +6,17 @@
     -->
      <h1>Hello App!</h1>
      <p>
-     <router-link to="/foo">Go to Foo</router-link>
-     <router-link to="/bar">Go to Bar</router-link>
+       <ul>
+         <li>
+          <router-link to="/foo">Go to Foo</router-link>
+         </li>
+         <li>
+          <router-link to="/bar">Go to Bar</router-link>
+         </li>
+         <li>
+          <router-link to="/test">Go to Test</router-link>
+         </li>
+       </ul>
      </p>
      <router-view></router-view>
   </div>
