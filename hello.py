@@ -7,12 +7,16 @@ from flask import url_for
 
 from flask_sqlalchemy import SQLAlchemy
 
-from tasks1 import add_together
+#from tasks1 import add_together
 
 app = Flask(__name__)
 app.secret_key = 'some_secret'
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///example.sqlite"
 db = SQLAlchemy(app)
+
+from . import photo
+app.register_blueprint(photo.bp)
+#app.add_url_rule('/',endpoint='index')
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
