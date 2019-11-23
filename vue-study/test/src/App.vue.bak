@@ -1,0 +1,159 @@
+<template>
+  <div id="app">
+  
+     <component
+      v-bind:is="currentTabComponent"
+     >
+     </component>
+
+     <table>
+      <tr is="alert-box">Something bad happened.</tr> 
+     </table>
+
+     <h1>Hello App!</h1>
+    <p>
+       <ul>
+         <li>
+          <router-link to="/foo">Go to Foo</router-link>
+         </li>
+         <li>
+          <router-link to="/bar">Go to Bar</router-link>
+         </li>
+         <li>
+          <router-link to="/test">Go to Test</router-link>
+         </li>
+         <li> <router-link to="/user/zl">Go to zl</router-link> </li>
+         <li> <router-link to="/user/zl/profile">Go to user profile</router-link> </li>
+         <li> <router-link to="/user/zl/posts">Go to user posts</router-link> </li>
+       </ul>
+     </p>
+
+     <transition
+         name="custom-classes-transition"
+         enter-active-class="animated fadeIn"
+     >
+         <router-view></router-view>
+     </transition>
+
+     <p>
+          <Foo1 post-title="hello" author="zhangle"></Foo1>
+          <ButtonCounter></ButtonCounter>
+     </p>
+     <div>
+        <button-counter1></button-counter1>
+     </div>
+     <alert-box>Something bad happened.</alert-box>
+     <div>
+     {{ searchText }}
+     </div>
+     <custom-input v-model="searchText"></custom-input>
+     <div :style="{ fontSize: postFontSize + 'em' }">
+        <blog-post
+          v-for="post in posts"
+          v-bind:key="post.id"
+          v-bind:post="post"
+          v-on:enlarge-text="postFontSize += $event"
+        ></blog-post>
+     </div>
+  </div>
+</template>
+
+<script>
+
+//import HelloWorld from './components/HelloWorld.vue'
+
+const Foo1 = { 
+  props: {
+    'postTitle':String, 
+    'author':String
+  },
+  template: '<div>foo1 {{ postTitle }} {{ author }} </div>' 
+}
+
+import Vue from 'vue'
+
+Vue.component('alert-box',{
+  template:`
+    <div class="demo-alert-box">
+      <strong>Error!</strong>
+      <slot></slot>
+    </div>
+  `
+});
+
+Vue.component('custom-input',{
+  props:['value'],
+  template:`
+    <input
+      v-bind:value="value"
+      v-on:input="$emit('input', $event.target.value)"
+    >
+  `
+});
+
+Vue.component('button-counter1',{
+  data:function(){
+    return {
+      count:0
+    }
+  },
+  template:'<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+});
+
+Vue.component('blog-post',{
+  props: ['post'],
+  template: `
+    <div class="blog-post">
+      <h3>{{ post.title }}</h3>
+      <button v-on:click="$emit('enlarge-text', 0.01)">
+          Enlarge text
+      </button>
+      <div v-html="post.content"></div>
+    </div>
+  `
+});
+
+var ButtonCounter = Vue.component('button-counter', {
+  data: function () {
+    return {
+      count: 0,
+    }
+  },
+  template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+})
+
+export default {
+  name: 'app',
+  data: function(){
+    return {
+      posts: [
+          { id: 1, title: 'My journey with Vue',content:'1' },
+          { id: 2, title: 'Blogging with Vue',  content:'2' },
+          { id: 3, title: 'Why Vue is so fun',  content:'3' }
+      ],
+      postFontSize: 1,
+      searchText:'',
+      currentTabComponent: ButtonCounter
+    }
+  },
+  components: {
+    //HelloWorld
+    Foo1,
+    ButtonCounter,
+  },
+  computed: {
+  }
+}
+</script>
+
+<style>
+
+#app1 {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
