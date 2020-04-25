@@ -670,3 +670,168 @@ jinja2.exceptions.UndefinedError: 'for_url' is undefined
 192.168.3.129 - - [20/Apr/2020 07:02:17] "[37mGET / HTTP/1.1[0m" 200 -
 192.168.3.129 - - [20/Apr/2020 07:02:17] "[37mGET / HTTP/1.1[0m" 200 -
 192.168.3.129 - - [20/Apr/2020 07:02:18] "[33mGET /blank.html HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[37mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:04:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:05:00] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:05:10] "[33mGET /login HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:05:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:05:16] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:05:24] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:05:24] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:05:24] "[37mGET /static/assets/css/images/pattern.jpg HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:05:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:05:32] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+192.168.3.124 - - [20/Apr/2020 07:05:32] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:06:23] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:06:23] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:06:29] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+192.168.3.124 - - [20/Apr/2020 07:06:29] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:07:04] "[33mGET /gallery.html HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:07:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:07:39] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:07:39] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:07:44] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:07:44] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:07:47] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:07:47] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.124 - - [20/Apr/2020 07:07:47] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:07:48] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.124 - - [20/Apr/2020 07:08:02] "[37mGET / HTTP/1.1[0m" 200 -
+/root/project/flask-test/instance
+ * Serving Flask app "app" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:43] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:01:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.129 - - [23/Apr/2020 06:05:23] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:05:31] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:05:41] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:06:17] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:06:34] "[37mGET /3/update HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:06:34] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:07:09] "[32mPOST /3/update HTTP/1.1[0m" 302 -
+192.168.3.129 - - [23/Apr/2020 06:07:09] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:00] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:09] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:10] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:10] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:10] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:10] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:11] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:11] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:16] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:16] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [23/Apr/2020 06:10:16] "[37mGET /static/assets/css/images/pattern.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:21] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:21] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [23/Apr/2020 06:10:21] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:21] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [23/Apr/2020 06:10:22] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:22] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [23/Apr/2020 06:10:24] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:28] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:29] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:29] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:29] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [23/Apr/2020 06:10:29] "[37mGET / HTTP/1.1[0m" 200 -
+/root/project/flask-test/instance
+/root/project/flask-test/instance
+/usr/bin/python: No module named flask
+ * Serving Flask app "app" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:52] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:58:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:11] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:21] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:21] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [25/Apr/2020 21:59:21] "[37mGET /static/assets/css/images/pattern.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:27] "[37mGET /auth/register HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:27] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:30] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:30] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [25/Apr/2020 21:59:38] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.3.129 - - [25/Apr/2020 21:59:38] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [25/Apr/2020 21:59:42] "[37mGET / HTTP/1.1[0m" 200 -
