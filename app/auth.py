@@ -68,7 +68,11 @@ def load_logged_in_user():
 @bp.route('/logout')
 def logout():
   session.clear()
-  return redirect(url_for('index'))
+  #return redirect(url_for('index'))
+  """
+  退出后跳转到登录页面
+  """
+  return redirect(url_for('auth.login'))
 
 def login_required(view):
   @functools.wraps(view)

@@ -1,0 +1,192 @@
+nohup: 忽略输入
+ * Serving Flask app "app" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:27:24] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:27:24] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:48] "[33mGET /login.html HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:53] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:27:54] "[37mGET /static/assets/css/images/pattern.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:28:01] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:28:01] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:28:04] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:28:04] "[37mGET / HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [01/May/2020 22:29:23] "[35m[1mGET /auth/logout HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/project/flask-test/app/auth.py", line 72, in logout
+    return redirect(url_for('auth/login.html'))
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'auth/login.html'. Did you mean 'auth.login' instead?
+192.168.3.129 - - [01/May/2020 22:29:23] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:23] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:23] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:23] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:23] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:23] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:38] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:40] "[35m[1mGET /auth/logout HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/project/flask-test/app/auth.py", line 72, in logout
+    return redirect(url_for('auth/login'))
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'auth/login'. Did you mean 'auth.login' instead?
+192.168.3.129 - - [01/May/2020 22:29:40] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:40] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:40] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:40] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:40] "[37mGET /auth/logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [01/May/2020 22:29:55] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:29:55] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:55] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:29:57] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:57] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:29:58] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:58] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:29:58] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:29:58] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:30:02] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:30:02] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:30:05] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:30:05] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:30:05] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
+192.168.3.129 - - [01/May/2020 22:30:10] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:30:10] "[37mGET / HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+192.168.3.129 - - [01/May/2020 22:31:12] "[37mGET /3/update HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:31:22] "[37mGET /2/update HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:31:24] "[32mPOST /2/delete HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:31:24] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:31:26] "[37mGET /1/update HTTP/1.1[0m" 200 -
+192.168.3.129 - - [01/May/2020 22:31:29] "[32mPOST /1/delete HTTP/1.1[0m" 302 -
+192.168.3.129 - - [01/May/2020 22:31:29] "[37mGET / HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
+ * Detected change in '/root/project/flask-test/app/auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 487-178-487
