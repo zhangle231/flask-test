@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+	<div class="col-xs-12">
+                <form class="form-horizontal" role="form" action="upload" method='post' enctype=multipart/form-data>
+
+		<!-- 文件上传 -->
+		<div class="form-group">
+	            	<label class="col-sm-2 control-label no-padding-right" for="id-input-file-2"> 上传项目管理文件 </label>
+	        	<div class="col-sm-10">
+	        		<input type="file" id="id-input-file-2" name=file />
+	        	</div>
+	        </div>
+	
+		<div class="clearfix form-actions">
+	            <div class="col-md-offset-4 col-md-6">
+	              <button class="btn btn-info" type="submit" type="button">
+	                <i class="ace-icon fa fa-check bigger-110"></i>
+	                Submit
+	              </button>
+	              &nbsp; &nbsp; &nbsp;
+	              <button class="btn" type="reset">
+	                <i class="ace-icon fa fa-undo bigger-110"></i>
+	                Reset
+	              </button>
+	            </div>
+                </div>
+	</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+	jQuery(function($){
+
+		$('#id-input-file-2').ace_file_input({
+		  no_file:'No File ...',
+		  btn_choose:'Choose',
+		  btn_change:'Change',
+		  droppable:false,
+		  onchange:null,
+		  thumbnail:false //| true | large
+		  //whitelist:'gif|png|jpg|jpeg'
+		  //blacklist:'exe|php'
+		  //onchange:''
+		  //
+		});
+
+	});
+</script>
+{% endblock %}
+

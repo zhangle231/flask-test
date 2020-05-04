@@ -914,17 +914,6 @@
 					</div>
 
 					<div class="page-content">
-<section class="content"> 
-<header>
-{% block header %}{% endblock %}
-</header>
-{% for message in get_flashed_messages() %}
-
-<div class="flash">{{ message }}</div>
-{% endfor %}
-{% block content %}{% endblock %}
-</section>
-
 						<div class="ace-settings-container" id="ace-settings-container">
 							<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
 								<i class="ace-icon fa fa-cog bigger-130"></i>
@@ -995,7 +984,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
-
+{% block content %}{% endblock %}
 								<!-- PAGE CONTENT ENDS -->
 							</div><!-- /.col -->
 						</div><!-- /.row -->
@@ -1056,5 +1045,9 @@
 		<script src="{{ url_for('static', filename='assets/js/ace.min.js') }}"></script>
 
 		<!-- inline scripts related to this page -->
+
+
+{% block scripts %}{% endblock %}
+
 	</body>
 </html>

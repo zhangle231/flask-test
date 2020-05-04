@@ -8,6 +8,7 @@ def create_app(test_config=None):
   app.config.from_mapping(
       SECRET_KEY='dev',
       DATABASE=os.path.join(app.instance_path, 'my_db.sqlite'),
+      UPLOAD_FOLDER = os.path.join(app.instance_path, 'upload'),
   )
   
 
@@ -39,5 +40,10 @@ def create_app(test_config=None):
   from . import blog
   app.register_blueprint(blog.bp)
   app.add_url_rule('/', endpoint='index')
+
+  # 项目管理
+  from . import project_manager
+  app.register_blueprint(project_manager.bp)
+
 
   return app
