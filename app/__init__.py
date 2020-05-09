@@ -49,5 +49,9 @@ def create_app(test_config=None):
     # 项目管理
     from . import project_manager
     app.register_blueprint(project_manager.bp)
+
+	# weight
+    from . import weight
+    app.register_blueprint(weight.bp)
   
     return app

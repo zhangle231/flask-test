@@ -5,1024 +5,77 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 05:35:08] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:35:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:35:41] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:16] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:16] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:16] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:16] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:17] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:17] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:18] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:21] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:46:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:25] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:46:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:46:39] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:51:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:51:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:51:24] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:51:24] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:51:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:51:25] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:51:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:51:25] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:51:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:51:26] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:51:27] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:51:27] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 05:53:01] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 05:53:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:15:19] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:15:19] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:20:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:20:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:20:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:20:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:20:44] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:20:44] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:21:19] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:21:20] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:21:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:21:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:21:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:21:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:21:38] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:21:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:21:42] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:21:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:21:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:21:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:22:12] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:22:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:22:35] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:22:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:22:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:22:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 06:26:44] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 06:26:44] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 08:58:10] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 08:58:10] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:01:26] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:01:26] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:01:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:01:28] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:01:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:01:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:01:41] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:01:41] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:01:41] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:01:41] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:47] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:47] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:02:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:02:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:04] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:24] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:24] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:40] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:03:52] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:03:52] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:18] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:18] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:47] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:47] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:47] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:47] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:48] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:04:53] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:04:54] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:05:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:05:39] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:05:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:05:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:05:51] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:05:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:05:51] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:05:51] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:05:56] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:05:56] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:02] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:04] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:11] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:11] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:58] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:58] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:58] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:59] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:59] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:59] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:59] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:06:59] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:06:59] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:00] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:02] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:02] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:04] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:04] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:06] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:06] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:06] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:06] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:07] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:07] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:07] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:08] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:08] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:09] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:21] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:07:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:34] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:07:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:09:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:09:28] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:09:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:09:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:10:12] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:10:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:10:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:10:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:10:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:10:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:10:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:10:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:11:34] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:11:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:11:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:11:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:12:00] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:12:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:12:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:12:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:12:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:12:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:12:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:12:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:12:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:12:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:40] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:41] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:41] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:13:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:13:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:12] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:20] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:20] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:21] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:14:21] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:14:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:15:55] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:15:55] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:15:56] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:15:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:15:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:15:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:15:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:15:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:16:27] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:16:27] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:16:27] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:16:27] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:17:41] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:17:41] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:18:06] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:18:06] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:22:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:22:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:23:35] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:23:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:23:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:23:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:24:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:24:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:27:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:27:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:27:44] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:27:44] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:27:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:27:49] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:27:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:27:49] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:11] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:11] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:14] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:14] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:14] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:14] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:14] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:34] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:34] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:35] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:35] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:46] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:47] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:47] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:28:47] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:28:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:29:01] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:29:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:29:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:29:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:29:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:29:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:29:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:29:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:29:38] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:29:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:31:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:31:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:31:38] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:31:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:32:34] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:32:34] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:32:58] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:32:58] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:33:17] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:33:18] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:33:31] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:33:31] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:33:46] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:33:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:34:27] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:58] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:34:58] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:35:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:35:13] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:35:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:36:01] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:36:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:36:01] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:36:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:36:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:36:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:37:42] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[37mGET /auth/login HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:37:43] "[37mGET /static/assets/css/images/pattern.jpg HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:44] "[37mPOST /auth/login HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:44] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:37:44] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:37:57] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:37:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:38] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:39] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:40] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:44] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:44] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:39:46] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:39:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:39] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:40] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:40] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:40] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:42] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:42] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:43] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:44] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:44] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:52:46] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:52:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 09:54:21] "[35m[1mGET /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 83, in find_best_app
-    app = call_factory(script_info, app_factory)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 119, in call_factory
-    return app_factory()
-  File "/root/project/flask-test/app/__init__.py", line 44, in create_app
-    from . import project_manager
-File "/root/project/flask-test/app/project_manager.py", line 11
-    if
-      ^
-SyntaxError: invalid syntax
-192.168.3.129 - - [04/May/2020 09:54:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:54:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:54:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:54:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:54:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:54:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:00] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:00] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:01] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:02] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:03] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:04] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:05] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:06] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:06] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:06] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 09:55:20] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:27] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:27] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:31] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:31] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:31] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:32] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:32] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:32] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:32] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:33] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:33] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:33] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:33] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:34] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:35] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:37] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:38] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:55:46] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:55:47] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 09:56:08] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:08] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:11] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:11] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:15] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:15] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:16] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:16] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:17] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:17] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:17] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:17] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:18] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:18] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:19] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:19] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:19] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:19] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:20] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:20] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:21] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:22] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:22] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:56:24] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:56:24] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
-GET
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 09:58:18] "[35m[1mGET /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 83, in find_best_app
-    app = call_factory(script_info, app_factory)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 119, in call_factory
-    return app_factory()
-  File "/root/project/flask-test/app/__init__.py", line 44, in create_app
-    from . import project_manager
-File "/root/project/flask-test/app/project_manager.py", line 12
-    render_template('
-                    ^
-SyntaxError: EOL while scanning string literal
-192.168.3.129 - - [04/May/2020 09:58:18] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:18] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:18] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:18] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:18] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:18] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:28] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:28] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:29] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:31] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:31] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:33] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:33] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:35] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:36] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:53] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:53] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:54] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:55] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:55] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:56] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:58:56] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:58:56] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:10] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:10] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:12] "[37mPOST /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:19] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:20] "[37mPOST /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:20] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:22] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:24] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:24] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:25] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:25] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [04/May/2020 09:59:25] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 09:59:25] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:03:53] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:03:57] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 12, in upload
-    file = request.files['file']
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/debughelpers.py", line 96, in __getitem__
-    return oldcls.__getitem__(self, key)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
-    raise exceptions.BadRequestKeyError(key)
-werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
-KeyError: 'file'
-192.168.3.129 - - [04/May/2020 10:03:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:03:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:03:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:03:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:03:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:03:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:04:21] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 12, in upload
-    file = request.files['file']
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/debughelpers.py", line 96, in __getitem__
-    return oldcls.__getitem__(self, key)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
-    raise exceptions.BadRequestKeyError(key)
-werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
-KeyError: 'file'
-192.168.3.129 - - [04/May/2020 10:04:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:21] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:27] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 12, in upload
-    file = request.files['file']
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/debughelpers.py", line 96, in __getitem__
-    return oldcls.__getitem__(self, key)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
-    raise exceptions.BadRequestKeyError(key)
-werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
-KeyError: 'file'
-192.168.3.129 - - [04/May/2020 10:04:27] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:27] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:27] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:27] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:27] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:29] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:30] "[37mGET /project/upload HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:04:38] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:41] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 12, in upload
-    file = request.files['file']
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/debughelpers.py", line 96, in __getitem__
-    return oldcls.__getitem__(self, key)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
-    raise exceptions.BadRequestKeyError(key)
-werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
-KeyError: 'file'
-192.168.3.129 - - [04/May/2020 10:04:41] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:41] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:41] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:41] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:41] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:04:46] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:05:50] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:05:53] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/debughelpers.py", line 96, in __getitem__
-    return oldcls.__getitem__(self, key)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/datastructures.py", line 442, in __getitem__
-    raise exceptions.BadRequestKeyError(key)
-werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 12, in upload
-    file = request.files['file']
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/debughelpers.py", line 100, in __getitem__
-    raise DebugFilesKeyError(request, key)
-flask.debughelpers.DebugFilesKeyError: You tried to access the file "file" in the request.files dictionary but it does not exist.  The mimetype for the request is "application/x-www-form-urlencoded" instead of "multipart/form-data" which means that no file contents were transmitted.  To fix this error you should provide enctype="multipart/form-data" in your form.
-
-The browser instead transmitted some file names. This was submitted: "desktop.ini"
-192.168.3.129 - - [04/May/2020 10:05:53] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:05:53] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:05:53] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:05:53] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:05:53] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:06:23] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:06:27] "[37mPOST /project/upload HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:07:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:39] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:43] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 13, in upload
-    return app.config['UPLOAD_FOLDER']
-NameError: name 'app' is not defined
-192.168.3.129 - - [04/May/2020 10:07:43] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:43] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:43] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:43] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:43] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:07:43] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:14:00] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:03] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 13, in upload
-    return current_app.config['UPLOAD_FOLDER']
-KeyError: 'UPLOAD_FOLDER'
-192.168.3.129 - - [04/May/2020 10:14:03] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:03] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:03] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:03] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:03] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:15] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 13, in upload
-    return current_app.config['UPLOAD_FOLDER']
-KeyError: 'UPLOAD_FOLDER'
-192.168.3.129 - - [04/May/2020 10:14:15] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:15] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:15] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:15] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:15] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:14:15] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+127.0.0.1 - - [09/May/2020 22:36:44] "[33mGET /weight/index HTTP/1.1[0m" 404 -
  * Detected change in '/root/project/flask-test/app/__init__.py', reloading
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/__init__.py', reloading
+127.0.0.1 - - [09/May/2020 22:38:08] "[35m[1mGET /weight/index HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 338, in __call__
+    self._flush_bg_loading_exception()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 326, in _flush_bg_loading_exception
+    reraise(*exc_info)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 314, in _load_app
+    self._load_unlocked()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 330, in _load_unlocked
+    self._app = rv = self.loader()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 388, in load_app
+    app = locate_app(self, import_name, name)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+File "/root/project/flask-test/app/__init__.py", line 54
+    from . import weight
+                       ^
+TabError: inconsistent use of tabs and spaces in indentation
+127.0.0.1 - - [09/May/2020 22:38:08] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:08] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:08] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:08] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:08] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:37] "[35m[1mGET /weight/index HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 343, in __call__
+    rv = self._load_unlocked()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 330, in _load_unlocked
+    self._app = rv = self.loader()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 388, in load_app
+    app = locate_app(self, import_name, name)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 240, in locate_app
+    __import__(module_name)
+File "/root/project/flask-test/app/__init__.py", line 54
+    from . import weight
+                       ^
+TabError: inconsistent use of tabs and spaces in indentation
+127.0.0.1 - - [09/May/2020 22:38:37] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:37] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:37] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:38:37] "[37mGET /weight/index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+127.0.0.1 - - [09/May/2020 22:39:06] "[37mGET /weight/index HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/__init__.py', reloading
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+127.0.0.1 - - [09/May/2020 22:39:16] "[33mGET /weight/index HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/May/2020 22:39:19] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:39:21] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:17:49] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:17:52] "[37mPOST /project/upload HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/__init__.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:22:54] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:22:57] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+127.0.0.1 - - [09/May/2020 22:40:48] "[35m[1mGET /weight/ HTTP/1.1[0m" 500 -
 Traceback (most recent call last):
   File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
     return self.wsgi_app(environ, start_response)
@@ -1044,145 +97,137 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 14, in upload
-    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-NameError: name 'os' is not defined
-192.168.3.129 - - [04/May/2020 10:22:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:22:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:22:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:22:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:22:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:22:57] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:23:08] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 16, in upload
-    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-NameError: name 'app' is not defined
-192.168.3.129 - - [04/May/2020 10:23:08] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:08] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:08] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:08] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:08] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
- * Detected change in '/root/project/flask-test/app/project_manager.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-192.168.3.129 - - [04/May/2020 10:23:26] "[35m[1mPOST /project/upload HTTP/1.1[0m" 500 -
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
-    return self.wsgi_app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
-    response = self.handle_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
-    raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/project_manager.py", line 16, in upload
-    file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/datastructures.py", line 3066, in save
-    dst = open(dst, "wb")
-FileNotFoundError: [Errno 2] No such file or directory: '/root/project/flask-test/instance/upload/desktop.ini'
-192.168.3.129 - - [04/May/2020 10:23:26] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:26] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:26] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:26] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:26] "[37mGET /project/upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:23:37] "[35m[1mGET /project/upload?__debugger__=yes&tb=140155856982872&cmd=paste&s=S6pBm3kMwI4DRLG0bN80 HTTP/1.1[0m" 500 -
-Error on request:
-Traceback (most recent call last):
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/serving.py", line 323, in run_wsgi
-    execute(self.server.app)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/serving.py", line 312, in execute
-    application_iter = app(environ, start_response)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/debug/__init__.py", line 479, in __call__
-    response = self.paste_traceback(request, traceback)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/debug/__init__.py", line 370, in paste_traceback
-    rv = traceback.paste()
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/werkzeug/debug/tbtools.py", line 299, in paste
-    rv = urlopen("https://api.github.com/gists", data=data)
-  File "/usr/lib64/python3.6/urllib/request.py", line 223, in urlopen
-    return opener.open(url, data, timeout)
-  File "/usr/lib64/python3.6/urllib/request.py", line 532, in open
-    response = meth(req, response)
-  File "/usr/lib64/python3.6/urllib/request.py", line 642, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/usr/lib64/python3.6/urllib/request.py", line 570, in error
-    return self._call_chain(*args)
-  File "/usr/lib64/python3.6/urllib/request.py", line 504, in _call_chain
-    result = func(*args)
-  File "/usr/lib64/python3.6/urllib/request.py", line 650, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-192.168.3.129 - - [04/May/2020 10:23:54] "[37mPOST /project/upload HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:51] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:51] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:51] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:51] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:51] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:25:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[37mGET /auth/login HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[33mGET /auth/assets/css/ace-rtl.min.css HTTP/1.1[0m" 404 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[36mGET /static/assets/css/images/pattern.jpg HTTP/1.1[0m" 304 -
-192.168.3.124 - - [04/May/2020 10:26:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.124 - - [04/May/2020 10:26:11] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
-192.168.3.124 - - [04/May/2020 10:26:11] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:11] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
-192.168.3.124 - - [04/May/2020 10:26:11] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
-192.168.3.124 - - [04/May/2020 10:26:11] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
-192.168.3.124 - - [04/May/2020 10:26:13] "[37mGET /3/update HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.124 - - [04/May/2020 10:26:20] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:30] "[37mGET /3/update HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:46] "[37mGET / HTTP/1.1[0m" 200 -
-192.168.3.129 - - [04/May/2020 10:26:53] "[37mPOST /project/upload HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:56] "[37mGET /project/upload HTTP/1.1[0m" 200 -
-192.168.3.124 - - [04/May/2020 10:26:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+  File "/root/project/flask-test/app/weight.py", line 10, in index
+    return render_template('weight/index.html')
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: weight/index.html
+127.0.0.1 - - [09/May/2020 22:40:48] "[37mGET /weight/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:40:48] "[37mGET /weight/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:40:48] "[37mGET /weight/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:40:48] "[37mGET /weight/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:40:48] "[37mGET /weight/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:40:49] "[37mGET /weight/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:29] "[36mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:39] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:40] "[36mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:40] "[36mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:40] "[36mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:40] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:40] "[36mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [09/May/2020 22:42:40] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.129 - - [09/May/2020 22:58:28] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:29] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:29] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:29] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:30] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:30] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:31] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:58:50] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:59:17] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.129 - - [09/May/2020 22:59:31] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[37mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.126 - - [09/May/2020 23:00:31] "[32mGET /weight HTTP/1.1[0m" 308 -
+192.168.3.126 - - [09/May/2020 23:00:31] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[32mGET /weight HTTP/1.1[0m" 308 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:43] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 200 -
+192.168.3.126 - - [09/May/2020 23:00:44] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
