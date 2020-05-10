@@ -10,7 +10,8 @@ bp = Blueprint('weight', __name__, url_prefix='/weight')
 
 @bp.route('/')
 def index():
-	return render_template('weight/index.html')	
+	weights = my_db.session.query(Weight).order_by(Weight.date.desc())
+	return render_template('weight/index.html',weights=weights)	
 
 
 @bp.route('/add', methods=('GET', 'POST'))

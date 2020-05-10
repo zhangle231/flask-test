@@ -2,9 +2,20 @@
 
 
 {% block content %}
+
   <h3>weight</h3>
-  <div><p>2020-05-10 112</p></div>
-  <div><p>2020-05-11 112</p></div>
+
+  <div class="row">
+	  <a href="add">add</a> 
+  </div>
+  {% for weight in weights %}
+	  <div>
+		  <p>
+		  {{ weight['date'] }}
+		  {{ weight['weight'] }}
+		  </p>
+  	  </div>
+  {% endfor %}
 
 {% endblock %}
 
