@@ -4,121 +4,231 @@
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 06:54:30] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:31] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:32] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:32] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:32] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:32] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:33] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:33] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:33] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:33] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:54:34] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[32mGET /weight HTTP/1.1[0m" 308 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:27] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:30] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:35:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:38:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+192.168.3.128 - - [10/May/2020 21:39:22] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:39:22] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:39:22] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:39:22] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:39:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:39:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 06:55:16] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:55:19] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:55:19] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:55:19] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:55:42] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:55:43] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:55:44] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:10] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:11] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:11] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:11] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:56:15] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:04] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:04] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:06] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:06] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 06:57:06] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:19] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:19] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:19] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:40:44] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 06:57:32] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:ImmutableMultiDict([])
+192.168.3.128 - - [10/May/2020 21:42:20] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:20] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:25] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:25] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:25] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:26] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:31] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+ERROR:root:ImmutableMultiDict([])
+192.168.3.128 - - [10/May/2020 21:42:35] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:35] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:42:35] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:35] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:42:36] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:42:36] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 07:02:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:03:28] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:04:09] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:04:19] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:04:29] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:09:13] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:14:54] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:14:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:15:02] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:15:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:15:21] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:15:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:15:21] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:15:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:15:22] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:15:22] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:15:22] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:15:22] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:16:23] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:16:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:16:34] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:16:34] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:17:07] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:17:07] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:17:35] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:17:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:19:41] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:19:41] "[33mGET /weight/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:19:41] "[33mGET /weight/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:19:41] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:20:48] "[35m[1mGET /weight/add HTTP/1.1[0m" 500 -
+192.168.3.128 - - [10/May/2020 21:43:10] "[35m[1mPOST /weight/add HTTP/1.1[0m" 500 -
 Traceback (most recent call last):
   File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
     return self.wsgi_app(environ, start_response)
@@ -140,485 +250,463 @@ Traceback (most recent call last):
     rv = self.dispatch_request()
   File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
     return self.view_functions[rule.endpoint](**req.view_args)
-  File "/root/project/flask-test/app/weight.py", line 15, in add
-    return render_template('weight/add.html')
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/templating.py", line 138, in render_template
-    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 930, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 883, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 857, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/loaders.py", line 127, in load
-    code = environment.compile(source, name, filename)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 638, in compile
-    self.handle_exception(source=source_hint)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
-    reraise(*rewrite_traceback_stack(source=source))
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
-    raise value.with_traceback(tb)
-  File "/root/project/flask-test/app/templates/weight/add.html", line 33, in template
-    <script src="{{ url_for('static', filename='assets/js/bootstrap-datepicker.min.js'></script>
-jinja2.exceptions.TemplateSyntaxError: unexpected '<'
-192.168.3.129 - - [10/May/2020 07:20:48] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:20:48] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:20:48] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:20:48] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:20:48] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:20:48] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:21:11] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:21:11] "[33mGET /weight/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:21:11] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:21:11] "[33mGET /weight/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:22:03] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:22:03] "[37mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:22:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:22:38] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:22:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:22:39] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:22:39] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:23:13] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:23:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:23:26] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:23:26] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:23:44] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:23:45] "[37mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:23:45] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:23:46] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:23:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:23:46] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:23:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:27:46] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:27:46] "[33mGET /static/bootstrap-timepicker.min.css HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:27:46] "[37mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:27:46] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:28:23] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:28:23] "[37mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:28:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.126 - - [10/May/2020 07:29:07] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.126 - - [10/May/2020 07:29:14] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:14] "[37mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:14] "[37mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:14] "[37mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:14] "[37mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:29:22] "[37mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:30:00] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:30:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:07] "[36mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:22] "[36mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:34] "[36mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:30:42] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:31:47] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:31:47] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:31:58] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:31:58] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:32:56] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:32:56] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:33:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:33:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:33:43] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:33:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:34:04] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:34:04] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:34:26] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:34:27] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:35:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:35:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:35:36] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:35:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:36:01] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:36:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:36:30] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:36:30] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:36:50] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:36:50] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:37:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:37:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:39:26] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:39:26] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:40:37] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:40:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:40:47] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:40:48] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:15] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:15] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:36] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:36] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:37] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:37] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:37] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:38] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:38] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:40] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:40] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:40] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:41] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:41] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:42] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:41:43] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:41:43] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:42:32] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:42:32] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:43:20] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:43:20] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:43:32] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:43:32] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:44:00] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:44:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:45:00] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:45:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:45:08] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:45:09] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
+  File "/root/project/flask-test/app/weight.py", line 18, in add
+    logging.error('------------' + request.form)
+TypeError: must be str, not ImmutableMultiDict
+192.168.3.128 - - [10/May/2020 21:43:10] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:10] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:10] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:11] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:11] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:11] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ERROR:root:------------ImmutableMultiDict([])
+192.168.3.128 - - [10/May/2020 21:43:32] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:32] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:33] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:43:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:43:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[36mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:08] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:09] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:09] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:09] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:09] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ERROR:root:------------2020-05-10
+192.168.3.128 - - [10/May/2020 21:44:27] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:27] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:27] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:28] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:28] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:28] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:28] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:44:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:44:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 07:48:17] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:17] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:21] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:21] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:22] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:22] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:22] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:23] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:33] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:33] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:34] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:34] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:35] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:48:35] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:48:35] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:50:59] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:00] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.129 - - [10/May/2020 07:51:00] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:02] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:03] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.129 - - [10/May/2020 07:51:03] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:05] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:05] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:08] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.129 - - [10/May/2020 07:51:08] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:08] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:11] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:11] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:13] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:13] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 07:51:22] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.129 - - [10/May/2020 07:51:22] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 07:51:23] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.126 - - [10/May/2020 07:51:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:36] "[36mGET /static/assets/js/jquery.mobile.custom.min.js HTTP/1.1[0m" 304 -
-192.168.3.126 - - [10/May/2020 07:51:43] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.126 - - [10/May/2020 07:51:43] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:51:48] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 07:51:59] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.126 - - [10/May/2020 07:51:59] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 08:48:52] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 08:48:52] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.126 - - [10/May/2020 08:48:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 08:56:39] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 08:56:39] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
+192.168.3.128 - - [10/May/2020 21:45:09] "[37mGET /weight/add HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/js/bootstrap-timepicker.min.js HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/css/bootstrap-datepicker3.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/css/bootstrap-timepicker.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[36mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 304 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:10] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+ERROR:root:------------2020-05-10
+ERROR:root:------------100
+192.168.3.128 - - [10/May/2020 21:45:15] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:45:15] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:45:15] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:45:15] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:15] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:45:15] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:45:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:45:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ERROR:root:------------2020-05-10
+ERROR:root:------------100
+ERROR:root:------------Weight date:'2020-05-10', weight:'100'
+192.168.3.128 - - [10/May/2020 21:47:16] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:16] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+ERROR:root:------------2020-05-10
+ERROR:root:------------100
+ERROR:root:------------Weight date:'2020-05-10', weight:'100'
+192.168.3.128 - - [10/May/2020 21:47:38] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:47:38] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 11:33:53] "[35m[1mGET /weight/add HTTP/1.1[0m" 500 -
+ERROR:root:------------2020-05-10
+ERROR:root:------------100
+ERROR:root:------------Weight date:'2020-05-10', weight:'100'
+192.168.3.128 - - [10/May/2020 21:48:22] "[35m[1mPOST /weight/add HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:22] "[35m[1mPOST /weight/add HTTP/1.1[0m" 500 -
 Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1175, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 836, in _init_compiled
+    param.append(processors[key](compiled_params[key]))
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/base.py", line 833, in process
+    "SQLite Date type only accepts Python "
+TypeError: SQLite Date type only accepts Python date objects as input.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
   File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
     raise value
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 83, in find_best_app
-    app = call_factory(script_info, app_factory)
-  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/cli.py", line 119, in call_factory
-    return app_factory()
-  File "/root/project/flask-test/app/__init__.py", line 54, in create_app
-    from . import weight
-File "/root/project/flask-test/app/weight.py", line 31
-    
-    ^
-SyntaxError: unexpected EOF while parsing
-192.168.3.129 - - [10/May/2020 11:33:53] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:53] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:53] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:53] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:53] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:53] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/project/flask-test/app/weight.py", line 24, in add
+    save_weight(weight)
+  File "/root/project/flask-test/app/weight.py", line 38, in save_weight
+    my_db.session.commit()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2496, in flush
+    self._flush(objects)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2597, in _flush
+    flush_context.execute()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1178, in _execute_context
+    e, util.text_type(statement), parameters, None, None
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1175, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 836, in _init_compiled
+    param.append(processors[key](compiled_params[key]))
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/sqlalchemy/dialects/sqlite/base.py", line 833, in process
+    "SQLite Date type only accepts Python "
+sqlalchemy.exc.StatementError: (builtins.TypeError) SQLite Date type only accepts Python date objects as input.
+[SQL: INSERT INTO weight (date, weight) VALUES (?, ?)]
+[parameters: [{'weight': '100', 'date': '2020-05-10'}]]
+192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:22] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:48:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:48:59] "[37mGET / HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/fonts.googleapis.com.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/font-awesome/4.5.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/ace.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/ace-skins.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/css/ace-rtl.min.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/ace-extra.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/jquery-2.1.4.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/ace-elements.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/js/ace.min.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:00] "[37mGET /static/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:49:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:49:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
-192.168.3.129 - - [10/May/2020 11:33:55] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:55] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:55] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:55] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:56] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:56] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:57] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:58] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:58] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:58] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:58] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:59] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:59] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:59] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:33:59] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:33:59] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:00] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:01] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:01] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:02] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:02] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:02] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:02] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:03] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:06] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:06] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:10] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
-192.168.3.129 - - [10/May/2020 11:34:10] "[37mGET /weight/ HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:10] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
-192.168.3.129 - - [10/May/2020 11:34:12] "[37mGET /weight/add HTTP/1.1[0m" 200 -
-192.168.3.129 - - [10/May/2020 11:34:12] "[33mGET /static/assets/js/jquery.min.map HTTP/1.1[0m" 404 -
+ERROR:root:------------2020-05-10
+ERROR:root:------------100
+192.168.3.128 - - [10/May/2020 21:50:17] "[35m[1mPOST /weight/add HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:17] "[35m[1mPOST /weight/add HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/project/flask-test/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/project/flask-test/app/weight.py", line 22, in add
+    date = datetime.datetime.strptime(request.form['date'],"%Y-%m-%d")
+NameError: name 'datetime' is not defined
+192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:17] "[37mGET /weight/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-078-606
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606
+/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ERROR:root:------------2020-05-10
+ERROR:root:------------100
+ERROR:root:------------Weight date:datetime.datetime(2020, 5, 10, 0, 0), weight:'100'
+192.168.3.128 - - [10/May/2020 21:50:42] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:42] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:50:42] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:42] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:43] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:43] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:43] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:43] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+ERROR:root:------------2020-05-11
+ERROR:root:------------111
+ERROR:root:------------Weight date:datetime.datetime(2020, 5, 11, 0, 0), weight:'111'
+192.168.3.128 - - [10/May/2020 21:50:54] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:54] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:50:54] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:54] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar2.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/avatar5.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:50:55] "[37mGET /static/assets/images/avatars/user.jpg HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:51:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:51:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:------------2020-05-11
+ERROR:root:------------112
+ERROR:root:------------Weight date:datetime.datetime(2020, 5, 11, 0, 0), weight:'112'
+192.168.3.128 - - [10/May/2020 21:51:12] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:51:12] "[32mPOST /weight/add HTTP/1.1[0m" 302 -
+192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /weight/ HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /static/assets/images/avatars/avatar.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /static/assets/images/avatars/avatar3.png HTTP/1.1[0m" 200 -
+192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.3.128 - - [10/May/2020 21:51:12] "[37mGET /static/assets/images/avatars/avatar4.png HTTP/1.1[0m" 200 -
+ * Detected change in '/root/project/flask-test/app/weight.py', reloading
+INFO:werkzeug: * Detected change in '/root/project/flask-test/app/weight.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-078-606
 /root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
  * Detected change in '/root/project/flask-test/app/weight.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
-/root/project/flask-test/venv/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
-  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
- * Detected change in '/root/project/flask-test/app/weight.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 487-178-487
+ * Debugger PIN: 240-078-606

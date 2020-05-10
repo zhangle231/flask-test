@@ -2,6 +2,7 @@ from flask import (
 	Blueprint, flash, g, redirect, render_template, request, url_for
 )
 
+import datetime
 import logging
 from app import my_db
 
@@ -15,6 +16,15 @@ def index():
 @bp.route('/add', methods=('GET', 'POST'))
 def add():
 	if request.method == "POST":
+		logging.error('------------' + str(request.form['date']))
+		logging.error('------------' + str(request.form['weight']))
+		weight = Weight()
+		
+		date = datetime.datetime.strptime(request.form['date'],"%Y-%m-%d")
+		weight.date = date
+		weight.weight = request.form['weight']
+		logging.error('------------' + str(weight))
+		save_weight(weight)
 		return redirect(url_for('weight.index'))
 	return render_template('weight/add.html')
 
