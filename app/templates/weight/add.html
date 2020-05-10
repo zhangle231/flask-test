@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block css %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap-datepicker3.min.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap-timepicker.min.css') }}" />
+{% endblock %}
+{% block content %}
+		<h1>add</h1>
+		<div class="row">
+				<div class="col-xs-12">
+					<form class="form-horizontal" role="form" method="post">
+
+						<div class="form-group">
+								<label class="col-sm-1 control-label" for="id-date-picker-1">date</label>
+							    <div class="col-sm-11">
+										<input class="form-control date-picker" id="id-date-picker-1" type="text" data-date-format="yyyy-mm-dd" />
+							    </div>
+						</div>
+	
+						<div class="form-group">
+								<label class="col-sm-1 control-label no-padding-right" for="form-field-1">weight</label>
+								<div class="col-sm-11">
+										<input type="text" id="form-field-1" placeholder="Weight" class="form-control" />
+								</div>
+						</div>
+						<div class="clearfix form-actions">
+                	        <div class="col-md-offset-4 col-md-6">
+								<button class="btn btn-info" type="submit">
+									<i class="ace-icon fa fa-check bigger-110"></i>
+									submit
+								</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+		</div>
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='assets/js/bootstrap-datepicker.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/bootstrap-timepicker.min.js') }}"></script>
+
+<script type="text/javascript">
+	jQuery(function($){
+		//datapicker plugin
+					$('.date-picker').datepicker({
+autoclose:true,
+todayHighlight:true
+}).next().on(ace.click_event,function(){
+		$(this).prev().focus();
+		});
+	});
+</script>
+{% endblock %}

@@ -4,9 +4,12 @@ import pytest
 
 from app.db import get_db
 
+import sys
+
 logging.basicConfig(level=logging.DEBUG)
 
 def test_get_close_db(app):
+  logging.info(sys.path)
   with app.app_context():
     db = get_db()
     assert db is get_db()
