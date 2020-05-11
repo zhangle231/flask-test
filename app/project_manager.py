@@ -20,8 +20,18 @@ def upload():
     if request.method == 'POST':
         file = request.files['file']
         filename = file.filename
+
+        # 存文件
+        dst_path = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
         file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
-        return current_app.config['UPLOAD_FOLDER']
+        # 解析入库
+        project_name = '数仓'
+        result = parse_file(project_name,dst_path)
+        del_task_list(project_name)
+        save_task_list(result)
+
+        return dst_path
+        #return str(dir(file))
     return render_template('project/upload.html')
 
 # 解析文件
@@ -80,9 +90,15 @@ def save_task_list(task_list):
         entity.owner = task['owner']
         entity.begin = task['begin']
         entity.end= task['end']
-        logging.info(entity)
+        logging.debug(entity)
         my_db.session.add(entity)
         my_db.session.commit()
     pass 
+
+# 删除数据
+def del_task_list(project):
+    my_db.session.query(Task).filter(Task.project == project).delete()
+    my_db.session.commit()
+
 
 
