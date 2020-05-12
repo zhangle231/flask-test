@@ -14,6 +14,7 @@ def create_app(test_config=None):
         UPLOAD_FOLDER = os.path.join(app.instance_path, 'upload'),
         SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(app.instance_path, 'test.db'),
         SQLALCHEMY_TRACK_MODIFICATIONS=False,
+        SQLALCHEMY_ECHO=True,
     )
   
     if test_config is None:

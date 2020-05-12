@@ -1,3 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<a href="{{ url_for('project.all') }}">all</a>
+<a href="{{ url_for('project.starting') }}">starting</a>
+<a href="{{ url_for('project.finish') }}">finished</a>
+
+<table class="table table-bordered table-hover">
+		<tr>
+				<th>项目名称</th>
+				<th>项目状态</th>
+				<th>操作</th>
+		</tr>
 {% for task in tasks %}
-		<p>	{{task['desc']}} <i>{{ task['id'] }}</i></p>
+	<tr>
+			<td>{{ task['desc'] }}</td>
+			<td>{{ task['task_status'] }}</td>
+			<td><a href="{{ url_for('project.update', id=task['id']) }}">finish</a></td>
+	</tr>
 {% endfor %}
+
+</table>
+
+{% endblock %}
