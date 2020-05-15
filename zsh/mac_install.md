@@ -16,3 +16,8 @@ chsh -s $(which zsh)
 
 参考链接
 https://www.cnblogs.com/weixuqin/p/7029177.html
+
+##修改主机名称
+sudo scutil --set HostName MacBookPro
+sudo scutil --set ComputerName MacBookPro
+
