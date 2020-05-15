@@ -2,5 +2,5 @@ instance/test.db
 .coverage
 /venv
 .pyc
-tests/*.xlsx"
+tests/*.xlsx
 
