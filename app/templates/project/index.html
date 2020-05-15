@@ -1,16 +1,22 @@
 {% extends 'base.html' %}
 
+{% block css %}
+{% endblock %}
+
 {% block content %}
 <a href="{{ url_for('project.all') }}">all</a>
 <a href="{{ url_for('project.starting') }}">starting</a>
 <a href="{{ url_for('project.finish') }}">finished</a>
 
-<table class="table table-bordered table-hover">
+<table class="table table-bordered table-hover" id="example">
+		<thead>
 		<tr>
 				<th>项目名称</th>
 				<th>项目状态</th>
 				<th>操作</th>
 		</tr>
+		</thead>
+		<tbody>
 {% for task in tasks %}
 	<tr>
 			<td>{{ task['desc'] }}</td>
@@ -18,7 +24,29 @@
 			<td><a href="{{ url_for('project.update', id=task['id']) }}">finish</a></td>
 	</tr>
 {% endfor %}
+		</tbody>
 
 </table>
 
+{% endblock %}
+
+{% block scripts %}
+	<!-- page specific plugin scripts -->
+	<script src="{{ url_for('static', filename='assets/js/jquery.dataTables.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/jquery.dataTables.bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/dataTables.buttons.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/buttons.flash.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/buttons.html5.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/buttons.print.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/buttons.colVis.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/dataTables.select.min.js') }}"></script>
+
+	<script type="text/javascript">
+			jQuery(function($){
+											$('#example').DataTable({
+											    searching: false,
+															lengthChange: false,
+											});
+			});
+	</script>
 {% endblock %}
