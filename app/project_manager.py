@@ -27,7 +27,6 @@ def upload():
     if request.method == 'POST':
         file = request.files['file']
         filename = file.filename
-
         # 存文件
         dst_path = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
         file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
