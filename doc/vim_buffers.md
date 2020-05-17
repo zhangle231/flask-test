@@ -14,7 +14,7 @@
 
 ## :split :vsplit :sfind :sb :vertical :leftabove :right
 
-`
+```
 vertical sb 3
 Create a vertical split and show buffer number 3 in the window to the left.
 :vertical rightbelow sfind file.txt
@@ -31,6 +31,7 @@ managing buffers
 :bd!	Delete the current buffer; will discard any changes (changes are lost).
 
 <C-^> ctrl + shift + ^
-`
+
+```
 
 
