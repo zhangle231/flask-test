@@ -52,8 +52,12 @@ def create_app(test_config=None):
     from . import project_manager
     app.register_blueprint(project_manager.bp)
 
-	# weight
+    # weight
     from . import weight
     app.register_blueprint(weight.bp)
+
+    # movie
+    from . import movie
+    app.register_blueprint(movie.bp)
   
     return app
