@@ -7,3 +7,7 @@ git clone https://github.com/powerline/fonts.git --depth=1
 ./install.sh
 修改dwm配置文件
 static const char *termcmd[]  = { "st", "-f", "Noto Mono for Powerline:size=14"};
+
+#解决触控板问题
+sudo modprobe -r psmouse
+sudo modprobe psmouse proto=imps 
