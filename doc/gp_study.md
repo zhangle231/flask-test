@@ -18,6 +18,7 @@ reboot
 #建库
 create database gpadmin;
 
+```
 \l: lists all databases
 \l+: lists all databases and shows extended information
 \c “database”: connects to “database”
@@ -28,19 +29,21 @@ create database gpadmin;
 \dn: lists all schemas
 \df: lists all functions
 \x: switches between row and column based output (handy for very wide tables)
+```
 
 # import or export 
 COPY tablename from ‘/path/to/filename.csv’;
 COPY tablename to ‘/path/to/export.csv’;
 
 # execute scripts 
+```
 psql -c "SELECT COUNT(*) FROM tablename"
 
 psql -q -A -t -c "SELECT COUNT(*) FROM tablename"
 
 psql -d gpadmin  -f sql.txt -q -A -t
 
-
+```
 
 
 
