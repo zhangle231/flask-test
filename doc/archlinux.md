@@ -11,3 +11,6 @@ static const char *termcmd[]  = { "st", "-f", "Noto Mono for Powerline:size=14"}
 #解决触控板问题
 sudo modprobe -r psmouse
 sudo modprobe psmouse proto=imps 
+
+#看图工具
+gpicview 需要alt+p打开
