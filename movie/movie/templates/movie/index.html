@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  
+<div class="container">
+<h4>电影列表</h4>
+
+{% for i in range(movies|count) %}
+{% if 1 == loop.index % 4 %}
+  <div class="row">
+{% endif %}
+    <div class="col-sm my-3"> 
+	    <div> <img height="160px" width="120px" src="https://img1.doubanio.com/view/photo/m/public/p2609399538.webp"></img> </div> 
+	    <div> 电影名称：{{ movies[i].name }} </div>
+    </div>
+{% if (0 == loop.index % 4) or (loop.index == loop.length) %}
+  </div>
+{% endif %}
+{% endfor %}
+
+{% macro render_pagination(pagination, endpoint) %}
+  <div class=pagination>
+  {%- for page in pagination.iter_pages() %}
+    {% if page %}
+      {% if page != pagination.page %}
+        <a href="{{ url_for(endpoint, page=page) }}">{{ page }}</a>
+      {% else %}
+        <strong>{{ page }}</strong>
+      {% endif %}
+    {% else %}
+      <span class=ellipsis>…</span>
+    {% endif %}
+  {%- endfor %}
+  </div>
+{% endmacro %}
+
+{{ render_pagination(pagination, 'index') }}
+
+
+</div>
+{% endblock %}
+

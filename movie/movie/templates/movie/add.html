@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="post">
+  <div class="form-group">
+    <label for="movieName">电影</label>
+    <input id="movieName" name="movieName" class="form-control" aria-describedby="movieHelp">
+    <small id="movieHelp" class="form-text text-muted">请输入电影名称.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
+
