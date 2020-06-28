@@ -1,5 +1,7 @@
 setup.py
 movie/__init__.py
+movie/movie.py
+movie/views.py
 movie.egg-info/PKG-INFO
 movie.egg-info/SOURCES.txt
 movie.egg-info/dependency_links.txt
