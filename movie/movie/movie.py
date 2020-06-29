@@ -18,9 +18,11 @@ def index():
 def add():
     if request.method ==  'POST':
         name = request.form['movieName']
+        img_url = request.form['imgURL']
         flash('添加成功! ' + name)
         movie = Movie()
         movie.name = name
+        movie.img_url = img_url
         db.session.add(movie)
         db.session.commit()
 
