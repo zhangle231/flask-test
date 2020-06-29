@@ -10,7 +10,7 @@ bp = Blueprint('movie', __name__, url_prefix='/movie')
 @bp.route('/')
 def index():
     page = int(request.args.get('page', '1'))
-    pagination = Movie.query.order_by(Movie.name.asc()).paginate(page,per_page=12,error_out=False)
+    pagination = Movie.query.order_by(Movie.id.desc()).paginate(page,per_page=12,error_out=False)
     movies = pagination.items
     return render_template('movie/index.html', movies = movies, pagination=pagination)
 
