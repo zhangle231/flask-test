@@ -1,0 +1,71 @@
+import pickle
+with open('data_list','rb') as f:
+    data_list = pickle.load(f)
+data_list
+[ d[2] for d in data_list ]
+days = [ d[2] for d in data_list ]
+days
+dir(days)
+tmp = set()
+[ tmp.add(d) for d in days ]
+tmp
+len(tmp)
+days = list(tmp)
+days
+result = int[24][96]
+result = [24][96]
+result = [[0]*96]*24
+result
+len(result[0])
+len(result)
+days
+days.sort()
+days
+days
+full_days = []
+[ d for d in days ]
+[ "202006" + d for d in days ]
+full_days = [ "202006" + d for d in days ]
+full_days
+[ d for d in full_days ]
+hours
+hours = []
+for i range(24):
+    print("%02d" % i)
+for i in range(24):
+    print("%02d" % i)
+for i in range(24):
+    hours.append("%02d" % i)
+hours
+mins = []
+for i in range(4):
+    print("%2d" % (i*15))
+for i in range(4):
+    print("%02d" % (i*15))
+for i in range(4):
+    mins.append("%02d" % (i*15))
+mins
+hours
+for h in hours:
+    for m in mins:
+        print("%s%s" %(h,m))
+for h in hours:
+    for m in mins:
+        print("%s%s" %(h,m))
+for h in hours:
+    for m in mins:
+        print("%s%s" %(h,m))
+full_days
+for d in full_days:
+    for h in hours:
+        for m in mins:
+            print("%s%s%s" %(d,h,m))
+all = []
+for d in full_days:
+    for h in hours:
+        for m in mins:
+            all.append("%s%s%s" %(d,h,m))
+all
+data_list
+all
+ls
