@@ -331,7 +331,7 @@
                                 <img class="nav-user-photo" src="{{ url_for('static',filename='assets/images/avatars/user.jpg') }}" alt="Jason's Photo" />
                                 <span class="user-info">
                                     <small>Welcome,</small>
-                                    Jason
+				    {{ g.user['username'] }}
                                 </span>
 
                                 <i class="ace-icon fa fa-caret-down"></i>
@@ -410,8 +410,7 @@
 
                 <ul class="nav nav-list">
 	                     
-
-		    {% macro render_menus(menus) -%}
+                    {% macro render_menus(menus) -%}
                         {% if menus.is_leaf == 0 %}
                             <li class=""> 
                             <a href="#" class="dropdown-toggle">
@@ -420,29 +419,28 @@
                                 <b class="arrow fa fa-angle-down"></b>
 			    </a>
                             <b class="arrow"></b>
+                                <ul class="submenu">
+			        {% for menu in menus.children %}
+			        	{{ render_menus(menu) }}
+                                {% endfor %}
+			        </ul>
                             </li>
-                            <ul class="submenu">
-			    {% for menu in menus.children %}
-			    	{{ render_menus(menu) }}
-                            {% endfor %}
-			    </ul>
                         {% else %}
                             <li class=""> 
                             <a href="#" class="dropdown-toggle">
 				    <i class="menu-icon fa fa-leaf green"></i>
 				    {{ menus.name }}
-                                <b class="arrow fa fa-angle-down"></b>
 			    </a>
                             <b class="arrow"></b>
                             </li>
                         {% endif %}
                     {%- endmacro %}
 
-		    {{ render_menus(menus) }}
+		    {{ render_menus(g.menus) }}
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
-                            <i class="menu-icon fa fa-desktop"></i>
+		    <i class="menu-icon fa fa-desktop"></i>
                             <span class="menu-text">
                                 UI &amp; Elements
                             </span>
