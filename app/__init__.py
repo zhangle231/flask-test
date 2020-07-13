@@ -52,6 +52,10 @@ def create_app(test_config=None):
     # 用户管理
     from . import user
     app.register_blueprint(user.bp)
+
+    # 菜单管理
+    from . import menus
+    app.register_blueprint(menus.bp)
  
     # 项目管理
     from . import project_manager
