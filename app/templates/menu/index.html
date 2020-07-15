@@ -1,7 +1,13 @@
 {% extends "/base.html" %}
 
-
 {% block content %}
+<div class="row">
+<p>
+<a class="btn btn-info" href="add">新增</a>
+</p>
+</div>
+
+<div class="row">
 <table id="example-basic" class="table table-bordered">
   <thead>
     <tr>
@@ -10,25 +16,27 @@
     </tr>
   </thead>
   <tbody>
-    <tr data-tt-id="1">
-      <td>Node 1: Click on the icon in front of me to expand this branch.</td>
-      <td>I live in the second column.</td>
-    </tr>
-    <tr data-tt-id="1.1" data-tt-parent-id="1">
-      <td>Node 1.1: Look, I am a table row <em>and</em> I am part of a tree!</td>
-      <td>Interesting.</td>
-    </tr>
-    <tr data-tt-id="1.1.1" data-tt-parent-id="1.1">
-      <td>Node 1.1.1: I am part of the tree too!</td>
-      <td>That's it!</td>
-    </tr>
-    <tr data-tt-id="2">
-      <td>Node 2: I am another root node, but without children</td>
-      <td>Hurray!</td>
-    </tr>
+    {%set data=[ 
+	  	{"id":"1","pid":"0"},
+	  	{"id":"2","pid":"1"},
+	  	{"id":"3","pid":"2"},
+	  	{"id":"8","pid":"3"},
+	  	{"id":"4","pid":"1"},
+	  	{"id":"5","pid":"4"},
+	  	{"id":"6","pid":"4"},
+	  	{"id":"7","pid":"4"},
+  	] 
+    %}
+
+    {% for d in menus %}
+        <tr data-tt-id="{{ d.id }}" data-tt-parent-id="{{ d.pid }}">
+        <td> {{ d.name }}</td>
+	<td> {{ d.url  }}</td>
+        </tr>
+    {% endfor %}
   </tbody>
 </table>
-
+</div>
 
 {% endblock %}
 

@@ -16,7 +16,6 @@ class User(my_db.Model):
     remarks = my_db.Column(my_db.String(100))
     create_time = my_db.Column(my_db.DateTime())
 
-
     def __repr__(self):
         return 'User id:%r, username:%r, password:%r, dep:%r, phone:%r, mail:%r, status:%r, post:%r, remarks:%r, create_time:%r' % (self.id, self.username, self.password, self.dep, self.phone, self.mail, self.status, self.post, self.remarks, self.create_time)
 

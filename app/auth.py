@@ -85,6 +85,9 @@ def load_logged_in_user():
           }
   g.menus = menus
 
+  from app.menus import create_menu
+  g.menus1 = create_menu()
+
 @bp.route('/logout')
 def logout():
   session.clear()
