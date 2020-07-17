@@ -26,6 +26,16 @@ menus = {'name':'1 test','is_leaf':0,
           }
  
 '''
+def create_tree(pid, data, ret):
+    for d in data:
+        c_id  = d.id
+        c_pid = d.pid
+        if pid == c_pid:
+            r = {'id':c_id,'pid':c_pid,'is_leaf':1,'name':d.name,'children':[]}
+            ret['children'].append(r)
+            ret['is_leaf'] = 0
+            create_tree(c_id, data, r)
+
 def reuse(pid,l,r):
     l = [ e for e in l if e not in r]
     if len(l) == 0:
@@ -50,7 +60,12 @@ def create_menu():
 @bp.route('/')
 def index():
     menus = create_menu()
-    return render_template('menu/index.html', menus=menus)
+
+    data = Menu.query.all()
+    ret = {'id':1,'pid':0,'is_leaf':1,'name': data[0].name, 'children':[]}
+    create_tree(1, data, ret)
+    tree  = ret
+    return render_template('menu/index.html', menus=menus, tree=tree)
 
 @bp.route('/add', methods=('POST','GET'))
 def add():
