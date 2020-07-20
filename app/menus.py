@@ -4,9 +4,11 @@ from app import my_db
 
 from app.model.menu import Menu
 
+from .common import reuse, get_menu, create_tree
+
 import datetime
 
-bp = Blueprint('menu',__name__,url_prefix='/menu')
+bp = Blueprint('menu', __name__, url_prefix='/menu')
 
 '''
 menus = {'name':'1 test','is_leaf':0,
@@ -26,48 +28,32 @@ menus = {'name':'1 test','is_leaf':0,
           }
  
 '''
-def create_tree(pid, data, ret):
-    for d in data:
-        c_id  = d.id
-        c_pid = d.pid
-        if pid == c_pid:
-            r = {'id':c_id,'pid':c_pid,'is_leaf':1,'name':d.name,'children':[]}
-            ret['children'].append(r)
-            ret['is_leaf'] = 0
-            create_tree(c_id, data, r)
-
-def reuse(pid,l,r):
-    l = [ e for e in l if e not in r]
-    if len(l) == 0:
-        return r
-    for e in l:
-        if e.pid == pid:
-            r.append(e)
-            r = reuse(e.id,l,r)
-    return r
-
-def get_menu(menus):
-    r = []
-    res = reuse(0,menus,r)
-    return res
 
 def create_menu():
+    '''获取菜单树，获取数据库信息，并生成数据结构
+    '''
     menus = Menu.query.all()
-    menus = sorted(menus, key=lambda x:x.id)
+    menus = sorted(menus, key=lambda x: x.id)
     menus = get_menu(menus)
     return menus
+
+def create_treemenu():
+    data = Menu.query.all()
+    ret = {'id': 1, 'pid': 0, 'is_leaf': 1,
+           'name': data[0].name, 'children': []}
+    create_tree(1, data, ret)
+    return ret
+
 
 @bp.route('/')
 def index():
     menus = create_menu()
 
-    data = Menu.query.all()
-    ret = {'id':1,'pid':0,'is_leaf':1,'name': data[0].name, 'children':[]}
-    create_tree(1, data, ret)
-    tree  = ret
+    tree = create_treemenu()
     return render_template('menu/index.html', menus=menus, tree=tree)
 
-@bp.route('/add', methods=('POST','GET'))
+
+@bp.route('/add', methods=('POST', 'GET'))
 def add():
     if request.method == 'POST':
         menu = Menu()

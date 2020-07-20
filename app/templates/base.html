@@ -413,7 +413,7 @@
                     {% macro render_menus(menus) -%}
                         {% if menus.is_leaf == 0 %}
                             <li class=""> 
-                            <a href="#" class="dropdown-toggle">
+				    <a href="#" class="dropdown-toggle">
 				    <i class="menu-icon fa fa-leaf green"></i>
 				    {{ menus.name }}
                                 <b class="arrow fa fa-angle-down"></b>
@@ -427,18 +427,18 @@
                             </li>
                         {% else %}
                             <li class=""> 
-                            <a href="#" class="dropdown-toggle">
+				    <a href="{{ menus.url }}"> 
 				    <i class="menu-icon fa fa-leaf green"></i>
 				    {{ menus.name }}
-			    </a>
+				    </a>
                             <b class="arrow"></b>
                             </li>
                         {% endif %}
                     {%- endmacro %}
 
-		    {{ render_menus(g.menus) }}
+		    {# render_menus(g.menus) #}
 
-		    {{ render_menus(tree) }}
+		    {{ render_menus(g.tree) }}
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">

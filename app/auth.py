@@ -85,8 +85,11 @@ def load_logged_in_user():
           }
   g.menus = menus
 
-  from app.menus import create_menu
+  from app.menus import create_menu, create_treemenu
   g.menus1 = create_menu()
+
+  g.tree = create_treemenu()
+
 
 @bp.route('/logout')
 def logout():
