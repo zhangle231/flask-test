@@ -53,6 +53,10 @@ def create_app(test_config=None):
     from . import user
     app.register_blueprint(user.bp)
 
+    # Role
+    from . import role
+    app.register_blueprint(role.bp)
+
     # 菜单管理
     from . import menus
     app.register_blueprint(menus.bp)
