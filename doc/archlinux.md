@@ -16,5 +16,5 @@ sudo modprobe psmouse proto=imps
 gpicview 需要alt+p打开
 
 # alacritty Error: GLSL 3.30 is not supported
-LIBGL_ALWAYS_SOFTWARE=1 alacritty (https://github.com/alacritty/alacritty/issues/3624)
+LIBGL_ALWAYS_SOFTWARE=1 alacritty [3624](https://github.com/alacritty/alacritty/issues/3624)
 
