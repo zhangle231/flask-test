@@ -1,0 +1,69 @@
+{% extends "/base.html" %}
+
+{% block content %}
+<div class="row">
+<p>
+<a class="btn btn-info" href="add">新增</a>
+</p>
+</div>
+
+<div>
+	{# tree #}
+</div>
+
+<div class="row">
+<table id="example-basic" class="table table-bordered">
+  <thead>
+    <tr>
+      <th>菜单名称</th>
+      <th>菜单地址</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%set data=[ 
+	  	{"id":"1","pid":"0"},
+	  	{"id":"2","pid":"1"},
+	  	{"id":"3","pid":"2"},
+	  	{"id":"8","pid":"3"},
+	  	{"id":"4","pid":"1"},
+	  	{"id":"5","pid":"4"},
+	  	{"id":"6","pid":"4"},
+	  	{"id":"7","pid":"4"},
+  	] 
+    %}
+
+    {% for d in menus %}
+        <tr data-tt-id="{{ d.id }}" data-tt-parent-id="{{ d.pid }}">
+        <td> {{ d.name }}</td>
+	<td> {{ d.url  }}</td>
+        </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/screen.css') }}" media="screen" />
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/jquery.treetable.css') }}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/jquery.treetable.theme.default.css') }}" />
+
+<style>
+th, td {
+  font-size:1.5em
+}
+</style>
+{% endblock %}
+
+{% block scripts %}
+       <script src="{{ url_for('static', filename='assets/js/jquery.treetable.js') }}"></script>
+
+<script>
+  $("#example-basic").treetable({ expandable: true });
+  $("#example-basic-expandable").treetable({ expandable: false});
+
+
+
+</script>
+{% endblock %}

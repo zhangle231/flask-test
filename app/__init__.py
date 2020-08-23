@@ -41,13 +41,26 @@ def create_app(test_config=None):
     from . import db
     db.init_app(app)
   
+    # 权限管理
     from . import auth
     app.register_blueprint(auth.bp)
   
     from . import blog
     app.register_blueprint(blog.bp)
     app.add_url_rule('/', endpoint='index')
-  
+
+    # 用户管理
+    from . import user
+    app.register_blueprint(user.bp)
+
+    # Role
+    from . import role
+    app.register_blueprint(role.bp)
+
+    # 菜单管理
+    from . import menus
+    app.register_blueprint(menus.bp)
+ 
     # 项目管理
     from . import project_manager
     app.register_blueprint(project_manager.bp)

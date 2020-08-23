@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form class="form-horizontal" method='POST' role="form">
+
+{%
+
+set fields = [
+        { "name" : "username" },
+        { "name" : "password" },
+        { "name" : "dep" },
+        { "name" : "phone" },
+        { "name" : "mail" },
+        { "name" : "status" },
+        { "name" : "post" },
+        { "name" : "remarks" },
+]
+%}
+
+{% for i in fields %}
+  <div class="form-group">
+  <label class="col-sm-3 control-label no-padding-right" for="{{i.name}}"> {{ i.name }} </label>
+  <div class="col-sm-9">
+	  <input type="text" id="{{i.name}}" name="{{ i.name }}" value="{{ user[i.name] }}" placeholder={{ i.name }} class="col-xs-10 col-sm-5" />
+  </div>
+  </div>
+{% endfor %}
+
+<div class="clearfix form-actions">
+<div class="col-md-offset-3 col-md-9">
+<button class="btn btn-info" type="submit">
+<i class="ace-icon fa fa-check bigger-110"></i>
+Submit
+</button>
+&nbsp; &nbsp; &nbsp;
+<button class="btn" type="reset">
+<i class="ace-icon fa fa-undo bigger-110"></i>
+Reset
+</button>
+</div>
+</div>
+
+</form>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+
+loop_item: {% block loop_item %}  {% endblock %}  end
+
+
+loop_item1: {% block loop_item1 %}  {% endblock %}  end
+
+
+{% set active_page = active_page|default('abc') -%}
+
+{% for item in active_page %}
+<li>{% block list scoped %} {{ item }}{% endblock %}</li>
+{% endfor %}
+

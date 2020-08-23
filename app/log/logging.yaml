@@ -1,0 +1,36 @@
+version: 1
+formatters:
+  simple:
+    format: 'y %(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file:
+    format: 'f %(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+
+  file_handler:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: DEBUG
+    formatter: file 
+    filename: log/log_file
+    when: S
+    interval: 5
+
+loggers:
+  simpleExample:
+    level: DEBUG
+    handlers: [console]
+    propagate: no
+
+  timeFile:
+    level: DEBUG
+    handlers: [file_handler]
+    propagate: no
+
+root:
+  level: DEBUG
+  handlers: [console,file_handler]

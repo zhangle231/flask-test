@@ -72,3 +72,4 @@ def myDel():
     db.session.commit()
     return redirect('/')
 
+
