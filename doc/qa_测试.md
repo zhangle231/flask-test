@@ -1,3 +1,5 @@
+# docker添加外部存储
+
 docker volume rm qamg
 docker volume rm qacode
 
@@ -85,3 +87,5 @@ http://101.200.36.215:8020/order?action=query_bank&acc=1010101&type=real&bank_id
 http://101.200.36.215:8020/tradeaccounts?action=query_accounthistory&account_cookie=1010101
 
 http://101.200.36.215:8020/tradeaccounts?action=query_account&account_cookie=1010101
+
+
