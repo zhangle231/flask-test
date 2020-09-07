@@ -152,3 +152,7 @@ QA_Task就是把event和work合在一起，主要就是do方法，负责执行wo
 ### QA_Thread
 
 在"QUANTAXIS/QAEngine/QAThreadEngine.py"模块中，继承自threading.Thread。QA_Engine 继承这个类。
+
+QA_Thread继承threading.Thread。run方法中执行实际的任务，通过Queue来获取任务
+
+QA_Engine继承自QA_Thread，增加了kernels
