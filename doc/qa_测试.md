@@ -88,11 +88,6 @@ http://101.200.36.215:8020/tradeaccounts?action=query_accounthistory&account_coo
 
 http://101.200.36.215:8020/tradeaccounts?action=query_account&account_cookie=1010101
 
-
-
-
-
-
 ## 实时获取信息
 def __getattr__(self, item):                                   
     try:                                                       
@@ -106,3 +101,54 @@ def __getattr__(self, item):
         return wrapper                                         
     except:                                                    
         return self.__getattr__(item) 
+
+
+## 学习一下QAEngine
+QA_Event
+QA_Worker
+QA_Task
+QA_Thread
+QA_Engine
+QA_AsyncThread
+QA_AsyncQueue
+QA_AsyncExec
+QA_AsyncTask
+QA_AsyncScheduler
+create_QAAsyncScheduler
+
+### QA_Event
+
+下面是一个高级玩法，通过exec动态的增加了python语句
+
+# This statement supports dynamic execution of Python code
+for item in kwargs.keys():
+    exec('self.{}=kwargs[item]'.format(item))
+
+QA_Event主要是一个可执行的实体，记录了func和callback
+
+### QA_Worker
+
+从abc中提供了抽象方法
+
+from abc import abstractmethod
+
+👻QA_Broker 继承这个类
+👻QA_Account 继承这个类
+👻QA_OrderHandler 继承这个类
+
+这个类啥也没干，主要是run方法，需要子类继承
+
+### QA_Task
+
+QA_Task就是把event和work合在一起，主要就是do方法，负责执行work的run方法，并执行callback.
+
+    def do(self):
+        self.res = self.worker.run(self.event)
+        if self.callback:
+            self.callback(self.res)
+
+此外学到@property，这个可以定义类的只读属性
+
+### QA_Thread
+
+在"QUANTAXIS/QAEngine/QAThreadEngine.py"模块中，继承自threading.Thread。QA_Engine 继承这个类。
