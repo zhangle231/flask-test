@@ -89,3 +89,20 @@ http://101.200.36.215:8020/tradeaccounts?action=query_accounthistory&account_coo
 http://101.200.36.215:8020/tradeaccounts?action=query_account&account_cookie=1010101
 
 
+
+
+
+
+## 实时获取信息
+def __getattr__(self, item):                                   
+    try:                                                       
+        api = self.get_available()                             
+        func = api.__getattribute__(item)                      
+                                                               
+        def wrapper(*args, **kwargs):                          
+            res = self.executor.submit(func, *args, **kwargs)  
+            self._queue.put(api)                               
+            return res                                         
+        return wrapper                                         
+    except:                                                    
+        return self.__getattr__(item) 
