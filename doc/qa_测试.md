@@ -156,3 +156,19 @@ QA_Task就是把event和work合在一起，主要就是do方法，负责执行wo
 QA_Thread继承threading.Thread。run方法中执行实际的任务，通过Queue来获取任务
 
 QA_Engine继承自QA_Thread，增加了kernels
+
+学习使用：threading.Event 
+
+Event主要方法
+set()
+clear()
+wait()
+
+知道上面这几个就够了，首先set相当于true,clear相当于false,然后wait如果是clear的化会一直等待
+
+### QA_AsyncThread
+
+也是继承于threading.Thread
+
+self.ident这个是线程的id
+
