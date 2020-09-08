@@ -172,3 +172,14 @@ wait()
 
 self.ident这个是线程的id
 
+学习以下语法结构，代表有异常跳过，没有异常，执行else中的块
+```
+try:
+     event = self.queue.get_nowait()
+ except asyncio.QueueEmpty:
+     pass
+ else:
+     asyncio.run_coroutine_threadsafe(
+```
+
+
