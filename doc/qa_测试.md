@@ -182,4 +182,42 @@ try:
      asyncio.run_coroutine_threadsafe(
 ```
 
+下面是一个最小的asyncio的使用场景，asyncio主要就是通过单一进程来模拟多线程，解决阻塞问题，解决的方法则是通过消息循环来完成的。
+new_event_loop()创建一个新的循环，就像多线程中申请了一个新的线程一样；
+run_until_complete（）则相当于start，开启这个线程，并等待线程执行完成
+get_event_loop()等于找到之前创建的线程
+run_coroutine_threadsafe()则是线程中传递信息，起到在指定的线程中执行函数的做用
+
+```
+  4 class MyAsyncThread(threading.Thread):
+  5
+  6     async def event_handler(self):
+  7         print('event_handler' , threading.current_thread())
+  8
+  9     async def main(self):
+ 10         print('main', threading.current_thread())
+ 11         main_loop = asyncio.get_event_loop()
+ 12         asyncio.run_coroutine_threadsafe(
+ 13                 self.event_handler(),
+ 14                 main_loop
+ 15         )
+ 16         await asyncio.sleep(1)
+ 17
+ 18
+ 19     def run(self):
+ 20         asyncio.new_event_loop().run_until_complete(self.main())
+ 21         print('running', threading.current_thread())
+ 22
+ 23 thread = MyAsyncThread()
+ 24 thread.start()
+
+```
+
+接下来再看一下queue这个类，这个是一个外部包中的实现，提供了同步和异步queue的功能。
+
+from janus import Queue as QA_AsyncQueue
+
+
+
+
 
