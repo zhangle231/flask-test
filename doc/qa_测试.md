@@ -217,7 +217,75 @@ run_coroutine_threadsafe()则是线程中传递信息，起到在指定的线程
 
 from janus import Queue as QA_AsyncQueue
 
+## 学习业务逻辑
 
+### 模拟一次期货的交易过程
+
+import QUANTAXIS as QA ### 导入对应的库
+
+'''
+    创建用户
+'''
+user = QA.QA_User(username='admin', password='admin')
+port = user.new_portfolio('test_newAccounts')
+
+x1 = port.new_account('x1', market_type=QA.MARKET_TYPE.FUTURE_CN) # 这块说明是一个期货市场
+
+x1.buy('RBL8', 3600, amount=1, time = '2020-01-10')  #买，但不强制成交
+x1.buy('RBL8', 3600, amount=1, time = '2020-01-10', if_selfdeal=True) #买，强制成交
+
+x1.history_table #查看历史
+
+x1.orders.to_df() #查看订单
+
+x1.hold_table() #查看持有
+
+x1.sell_close('RBL8', 3603, amount=1, time = '2020-01-13', if_selfdeal=True) #买，强制
+
+x1.reset_assets(1000000) #重置
+
+x1.generate_randomtrade('RBL8', '2019-12-01', '2020-01-10', 'day') ## 生成随机交易
+
+x1.history_table
+
+x1.hold_available
+
+## 生成图
+
+import matplotlib.pyplot as plt
+ax = plt.figure(figsize=(20,8))
+holdP.groupby(level=0).amount.apply(lambda x: x.plot.bar(legend=True))
+plt.show()
+
+## 回测的基本知识
+
+回测的那个核心类
+QA_BacktestBrocker
+QA_Account
+
+回测数据的引入/迭代
+
+QA.QA_fetch_stock_day_adv
+QA.QA_fetch_stock_min_adv
+
+指标的计算
+
+DataStruct.add_func
+
+账号的灵活运用
+
+QA_Account
+QA_Risk
+QA_Portfolio
+QA_PortfolioView
+QA_User
+
+### 获取信息
+
+QA.QA_fetch_stock_list_adv().code.tolist() # 获取全市场的股票代码
+QA.QA_fetch_stock_block_adv().get_block('云计算').code  # 按版块选取
+
+data=QA.QA_fetch_stock_day_adv(codelist,'2017-09-01','2018-05-20')
 
 
 
