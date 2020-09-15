@@ -1,30 +1,31 @@
-test = [
-        { "id":1, "pid":0},
-        { "id":2, "pid":1},
-        { "id":3, "pid":1},
-        { "id":4, "pid":2},
-        { "id":5, "pid":2},
-        { "id":6, "pid":2},
-        { "id":7, "pid":3},
-        { "id":8, "pid":3},
-        { "id":9, "pid":3},
-        { "id":10,"pid":4},
-        { "id":11,"pid":4},
-        { "id":12,"pid":4},
-        { "id":13,"pid":4},
-        ]
+menus = {'name':'1 test','is_leaf':0,
+           'children':[
+                    {'name':'1.1 test','is_leaf':1,'children':None},
+                    {'name':'1.2 test','is_leaf':0,
+                     'children':[
+                            {'name':'1.2.1 test','is_leaf':0,'children':[
+                                    {'name':'1.2.1.1 test','is_leaf':0,'children':[
+                                        {'name':'1.2.1.1.1 test','is_leaf':0,'children':[
+                                            {'name':'1.1 test','is_leaf':1,'children':None},
+                                        ]},
+                                    ]},
+                            ]}
+                        ]}
+            ]
+}
 
-def reuse(pid,l,r):
-    l = [ e for e in l if e not in r]
-    if len(l) == 0:
-        return r
-    for e in l:
-        if e['pid'] == pid:
-            r.append(e)
-            r = reuse(e['id'],l,r)
-    return r
+src = [
+        {"name":"root","pid":"0","id":"1"},
+        {"name":"0010","pid":"1","id":"2"},
+        {"name":"0020","pid":"1","id":"3"},
+        {"name":"0011","pid":"2","id":"4"},
+        {"name":"0030","pid":"1","id":"5"},
+        {"name":"0031","pid":"5","id":"6"},
+        {"name":"0021","pid":"3","id":"7"},
+        {"name":"0022","pid":"3","id":"8"},
+        {"name":"0012","pid":"2","id":"9"},
+]
+ 
+[ print(x) for x in src ]
 
-r = []
-res = reuse(0,test,r)
 
-[ print(r) for r in res ]
