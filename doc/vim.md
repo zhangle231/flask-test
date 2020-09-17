@@ -45,24 +45,35 @@ $ 最后一行
 
 @: 重复ex
 
-dfafasdfasdf
-	sadfasdfasdfasf
-	afdadfadfa
 
-adfasdfasdfasd
-	sdfasdf
-	adsfasdfasdf
+##  把当前单词插入到命令行
+%s// 替换上次搜索的单词
 
 
-adfasdfasdfasd
+## 回溯历史命令
 
-adfasdfasdfasd
+set history = 200
 
+翻页： <Up><Down><C-p><C-n>
 
-adfasdfasdfasd
-dfafasdfasdf
+:write | !ruby % 两个命令连接
 
+q:
 
+q/
+
+<C-f>
+
+## 运行	命令
+
+:!ls
+
+% 代表当前文件名
+
+ls 
+
+:write !sh  -> :w !sh
+:write ! sh
 
 
 
