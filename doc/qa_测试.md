@@ -54,9 +54,6 @@ p.pub(json.dumps({
     'exchange_id': 'SHFE'
 }), routing_key='x1')
 
-
-
-
 p.pub(json.dumps({
     'topic': 'sendorder',
     'account_cookie': 'x1',
