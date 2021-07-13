@@ -41,4 +41,35 @@ rdd_three: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[12] at repartitio
 scala> rdd_three.partitions.length
 res18: Int = 5
  
+### action算子
+
+reduce
+为rdd中所有的元素应用reduce函数并将其发送给driver
+
+```
+res0: Array[Int] = Array(1, 2, 3, 4, 5, 6)                                      
+
+scala> rdd_one.reduce((a,b) => a + b)
+res1: Int = 21
+```
+
+count
+将rdd中元素进行简单的统计
+
+collect
+收集rdd中所有元素并将其发送给driver,在大的rdd可能导致driver出现内存溢出问题
+
+## 缓存
+
+persist可使用内存或磁盘，或同时使用两者
+
+unpersist释放缓存
+
+## 加载和保存数据
+
+### 加载数据
+
+textFile
+wholeTextFiles
+JDBC数据源加载数据
 
