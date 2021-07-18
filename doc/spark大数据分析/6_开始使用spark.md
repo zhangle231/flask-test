@@ -73,3 +73,13 @@ textFile
 wholeTextFiles
 JDBC数据源加载数据
 
+#### textFile
+val rdd_two = sc.textFile("README.md")
+
+#### wholeTextFiles
+将多个文件加载到一个成对的RDD,该RDD中包含<filename, textOfFile>对，用于表示文件名称和文件的完整内容
+
+### 保存RDD
+
+saveAsTextFile
+saveAsObjectFile
