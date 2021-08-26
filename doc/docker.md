@@ -41,3 +41,55 @@ sudo docker pull portainer/portainer
 sudo docker volume create portainer_data
 #运行 portainer
 sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+
+
+# get started
+
+## start the tutorial
+
+docker run -d -p 80:80 docker/getting-started
+
+You’ll notice a few flags being used. Here’s some more info on them:
+
+    -d - run the container in detached mode (in the background)
+    -p 80:80 - map port 80 of the host to port 80 in the container
+    docker/getting-started - the image to use
+
+## Our App
+
+docker build -t getting-started .
+
+docker run -dp 3000:3000 getting-started
+
+## Updating Our App
+
+docker ps 
+
+docker stop c600818998cc
+
+## Share our App
+
+docker image ls
+
+docker login -u
+
+docker tag getting-started zhangle231/getting-started
+
+docker push zhangle231/getting-started
+
+## persisting our db
+
+docker exec <container-id> cat /data.txt
+
+container volumes
+
+create a volume 
+
+docker volume create todo-db
+
+docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
+
+docker run -dp 3000:3000 `
+    -w /app -v "$(pwd):/app" `
+    node:12-alpine `
+    sh -c "yarn install && yarn run dev"
